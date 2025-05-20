@@ -102,3 +102,38 @@ INFO 2025-05-20 14:07:04,734 basehttp "GET /static/rest_framework/js/load-ajax-f
 INFO 2025-05-20 14:07:04,771 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
 INFO 2025-05-20 14:07:50,075 services {'event': 'UserActivity:login', 'user_id': 2, 'user_email': 'user@example.com', 'description': 'User logged in', 'ip': '127.0.0.1'}
 INFO 2025-05-20 14:07:50,081 basehttp "POST /api/auth/login/ HTTP/1.1" 200 6473
+WARNING 2025-05-20 14:15:59,174 log Not Found: / /api/auth/profile/
+WARNING 2025-05-20 14:15:59,175 basehttp "GET /%20/api/auth/profile/ HTTP/1.1" 404 2391
+WARNING 2025-05-20 14:16:12,573 log Unauthorized: /api/auth/profile/
+WARNING 2025-05-20 14:16:12,574 basehttp "GET /api/auth/profile/ HTTP/1.1" 401 5098
+INFO 2025-05-20 14:16:12,597 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,605 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,607 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,609 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,611 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,612 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,613 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,614 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,618 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,622 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,622 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:16:12,659 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2025-05-20 14:16:21,697 log Unauthorized: /api/auth/profile/
+WARNING 2025-05-20 14:16:21,697 basehttp "GET /api/auth/profile/ HTTP/1.1" 401 5098
+WARNING 2025-05-20 14:24:54,279 log Bad Request: /api/auth/signup/
+WARNING 2025-05-20 14:24:54,280 basehttp "POST /api/auth/signup/ HTTP/1.1" 400 186
+WARNING 2025-05-20 14:25:09,551 log Bad Request: /api/auth/signup/
+WARNING 2025-05-20 14:25:09,552 basehttp "POST /api/auth/signup/ HTTP/1.1" 400 129
+INFO 2025-05-20 14:25:20,587 services {'event': 'UserActivity:signup', 'user_id': 3, 'user_email': 'user1@example.com', 'description': 'User registered', 'ip': '127.0.0.1'}
+INFO 2025-05-20 14:25:20,589 basehttp "POST /api/auth/signup/ HTTP/1.1" 201 641
+INFO 2025-05-20 14:26:20,940 services {'event': 'UserActivity:login', 'user_id': 3, 'user_email': 'user1@example.com', 'description': 'User logged in', 'ip': '127.0.0.1'}
+INFO 2025-05-20 14:26:20,942 basehttp "POST /api/auth/login/ HTTP/1.1" 200 634
+INFO 2025-05-20 14:27:13,521 basehttp "GET /api/auth/profile/ HTTP/1.1" 200 160
+INFO 2025-05-20 14:29:33,905 basehttp "POST /api/employers/ HTTP/1.1" 201 277
+WARNING 2025-05-20 14:31:10,854 log Unauthorized: /api/employers/
+WARNING 2025-05-20 14:31:10,855 basehttp "GET /api/employers/ HTTP/1.1" 401 58
+INFO 2025-05-20 14:31:36,144 basehttp "GET /api/employers/ HTTP/1.1" 200 283
+INFO 2025-05-20 14:32:45,910 basehttp "GET /api/employers/2/ HTTP/1.1" 200 279
+INFO 2025-05-20 14:34:26,610 basehttp "PUT /api/employers/2/ HTTP/1.1" 200 301
+INFO 2025-05-20 14:35:59,464 basehttp "PUT /api/employers/2/ HTTP/1.1" 200 301
+INFO 2025-05-20 14:36:08,455 basehttp "DELETE /api/employers/2/ HTTP/1.1" 200 44

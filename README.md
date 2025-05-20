@@ -119,3 +119,16 @@ curl -X POST http://127.0.0.1:8000/api/employers/ \
 - Custom permissions for data access control
 - Password validation and hashing
 - CSRF protection (Django built-in)
+
+
+## Postman Collection
+
+Endpoint: POST /api/auth/signup/
+Endpoint: POST /api/auth/login/
+Endpoint: GET /api/auth/profile/
+
+Endpoint: POST /api/employers/
+Endpoint: GET /api/employers/
+Endpoint: GET /api/employers/<id>/
+Endpoint: PUT /api/employers/<id>/
+Endpoint: DELETE /api/employers/<id>/
