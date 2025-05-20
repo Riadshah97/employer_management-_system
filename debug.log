@@ -1,0 +1,104 @@
+INFO 2025-05-20 13:32:18,315 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 13:42:11,953 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 13:42:51,506 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-20 13:43:01,235 log Not Found: /
+WARNING 2025-05-20 13:43:01,237 basehttp "GET / HTTP/1.1" 404 2314
+WARNING 2025-05-20 13:43:01,314 log Not Found: /favicon.ico
+WARNING 2025-05-20 13:43:01,315 basehttp "GET /favicon.ico HTTP/1.1" 404 2365
+INFO 2025-05-20 13:49:29,895 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 13:49:42,256 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-20 13:49:42,292 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+INFO 2025-05-20 13:49:42,396 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-05-20 13:49:42,398 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-05-20 13:49:42,398 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-05-20 13:49:42,399 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-05-20 13:49:42,399 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-05-20 13:49:42,401 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-05-20 13:49:43,285 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-05-20 13:52:57,218 autoreload Watching for file changes with StatReloader
+INFO 2025-05-20 13:53:56,802 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-20 13:53:56,832 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+INFO 2025-05-20 13:53:56,901 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,913 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,914 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,914 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,916 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,916 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:53:56,931 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-05-20 13:54:20,163 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4354
+INFO 2025-05-20 13:54:32,364 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4364
+INFO 2025-05-20 13:54:40,812 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-20 13:54:40,833 basehttp "GET /admin/ HTTP/1.1" 200 7283
+INFO 2025-05-20 13:54:40,906 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-05-20 13:54:40,956 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-20 13:54:40,957 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-20 13:54:45,990 basehttp "GET /admin/employer_app/user/ HTTP/1.1" 200 12138
+INFO 2025-05-20 13:54:46,015 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-05-20 13:54:46,031 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-20 13:54:46,031 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-05-20 13:54:46,032 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-05-20 13:54:46,035 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-20 13:54:46,036 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-05-20 13:54:46,048 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-20 13:54:46,049 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-05-20 13:54:46,049 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-20 13:54:46,051 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-05-20 13:54:46,052 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-05-20 13:54:46,060 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-20 13:54:46,106 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-05-20 13:54:46,132 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-05-20 13:54:46,135 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-20 13:54:46,135 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-05-20 13:54:48,365 basehttp "GET /admin/employer_app/employer/ HTTP/1.1" 200 8414
+INFO 2025-05-20 13:54:48,394 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-20 13:54:50,542 basehttp "GET /admin/employer_app/employer/add/ HTTP/1.1" 200 13543
+INFO 2025-05-20 13:54:50,567 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-05-20 13:54:50,574 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-20 13:54:50,578 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-20 13:54:50,584 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-20 13:54:50,614 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-05-20 13:55:50,608 basehttp "POST /admin/employer_app/employer/add/ HTTP/1.1" 302 0
+INFO 2025-05-20 13:55:50,630 basehttp "GET /admin/employer_app/employer/ HTTP/1.1" 200 9912
+INFO 2025-05-20 13:55:50,694 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:50,703 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:50,704 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:50,704 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:50,708 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:50,711 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-20 13:55:50,721 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-05-20 13:55:53,013 basehttp "GET /admin/employer_app/employer/1/change/ HTTP/1.1" 200 13850
+INFO 2025-05-20 13:55:53,039 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-05-20 13:59:03,771 log Method Not Allowed: /api/auth/signup/
+WARNING 2025-05-20 13:59:03,772 basehttp "GET //api/auth/signup/ HTTP/1.1" 405 5574
+INFO 2025-05-20 13:59:03,803 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-05-20 13:59:03,817 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-05-20 13:59:03,818 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-05-20 13:59:03,818 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-05-20 13:59:03,818 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-05-20 13:59:03,818 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-05-20 13:59:03,820 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-05-20 13:59:03,837 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-05-20 13:59:03,837 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-05-20 13:59:03,838 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-05-20 13:59:03,840 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-05-20 13:59:03,840 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-05-20 13:59:52,105 services {'event': 'UserActivity:signup', 'user_id': 2, 'user_email': 'user@example.com', 'description': 'User registered', 'ip': '127.0.0.1'}
+INFO 2025-05-20 13:59:52,112 basehttp "POST /api/auth/signup/ HTTP/1.1" 201 6499
+WARNING 2025-05-20 14:05:20,091 log Not Found: /api/auth/Login/
+WARNING 2025-05-20 14:05:20,092 basehttp "GET /api/auth/Login/ HTTP/1.1" 404 3582
+WARNING 2025-05-20 14:07:04,679 log Method Not Allowed: /api/auth/login/
+WARNING 2025-05-20 14:07:04,680 basehttp "GET /api/auth/login/ HTTP/1.1" 405 5560
+INFO 2025-05-20 14:07:04,710 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,720 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,722 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,722 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,722 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,723 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,723 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,725 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,733 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,734 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,734 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:04,771 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-05-20 14:07:50,075 services {'event': 'UserActivity:login', 'user_id': 2, 'user_email': 'user@example.com', 'description': 'User logged in', 'ip': '127.0.0.1'}
+INFO 2025-05-20 14:07:50,081 basehttp "POST /api/auth/login/ HTTP/1.1" 200 6473

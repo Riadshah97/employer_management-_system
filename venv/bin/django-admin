@@ -1,4 +1,4 @@
-#!/home/riad/Documents/employer_management-_system/employer_project/venv/bin/python3
+#!/home/riad/Documents/employer_management-_system/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
