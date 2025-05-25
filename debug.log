@@ -137,3 +137,17 @@ INFO 2025-05-20 14:32:45,910 basehttp "GET /api/employers/2/ HTTP/1.1" 200 279
 INFO 2025-05-20 14:34:26,610 basehttp "PUT /api/employers/2/ HTTP/1.1" 200 301
 INFO 2025-05-20 14:35:59,464 basehttp "PUT /api/employers/2/ HTTP/1.1" 200 301
 INFO 2025-05-20 14:36:08,455 basehttp "DELETE /api/employers/2/ HTTP/1.1" 200 44
+INFO 2025-05-24 16:16:15,791 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:02:42,804 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:18:13,694 autoreload /home/riad/Documents/employer_management-_system/employer_app/views.py changed, reloading.
+INFO 2025-05-25 17:18:14,346 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:19:05,713 autoreload /home/riad/Documents/employer_management-_system/employer_app/urls.py changed, reloading.
+INFO 2025-05-25 17:19:06,404 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:19:12,867 autoreload /home/riad/Documents/employer_management-_system/employer_app/urls.py changed, reloading.
+INFO 2025-05-25 17:19:13,565 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:19:38,407 autoreload /home/riad/Documents/employer_management-_system/employer_project/settings.py changed, reloading.
+INFO 2025-05-25 17:19:39,124 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:19:49,674 autoreload /home/riad/Documents/employer_management-_system/employer_project/settings.py changed, reloading.
+INFO 2025-05-25 17:21:23,059 autoreload Watching for file changes with StatReloader
+INFO 2025-05-25 17:21:54,016 autoreload /home/riad/Documents/employer_management-_system/employer_app/views.py changed, reloading.
+INFO 2025-05-25 17:21:54,691 autoreload Watching for file changes with StatReloader

@@ -2,6 +2,11 @@ from rest_framework import viewsets, generics, permissions, status
 from rest_framework.response import Response
 from django.utils.translation import gettext_lazy as _
 import logging
+from django.contrib.auth.tokens import default_token_generator
+from django.core.mail import send_mail
+from django.conf import settings
+from django.utils.http import urlsafe_base64_encode
+from django.utils.encoding import force_bytes
 
 from .models import User, Employer
 from .serializers import UserSerializer, SignUpSerializer, LoginSerializer, EmployerSerializer
@@ -117,7 +122,7 @@ class EmployerView(ApiView):
     
     def get(self, request, pk=None):
         try:
-            if pk:
+            if (pk):
                 # Retrieve single employer
                 employer = Employer.objects.get(pk=pk, user=request.user)
                 result = {
@@ -242,3 +247,50 @@ class EmployerView(ApiView):
         except Exception as e:
             logger.error({"event": "EmployerViewSet:delete", "message": "Unexpected error occurred", "error": str(e)})
             raise e
+
+class ForgotPasswordView(ApiView):
+    def post(self, request):
+        try:
+            email = request.data.get('email')
+            if not email:
+                return Response(
+                    {"message": _("Email is required.")},
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+
+            try:
+                user = User.objects.get(email=email)
+            except User.DoesNotExist:
+                return Response(
+                    {"message": _("User with this email does not exist.")},
+                    status=status.HTTP_404_NOT_FOUND
+                )
+
+            # Generate password reset token
+            token = default_token_generator.make_token(user)
+            uid = urlsafe_base64_encode(force_bytes(user.pk))
+            reset_url = f"{settings.FRONTEND_URL}/reset-password/{uid}/{token}"
+
+            # Send password reset email
+            send_mail(
+                subject=_("Password Reset Request"),
+                message=_(
+                    f"Hi {user.first_name},\n\n"
+                    f"Click the link below to reset your password:\n{reset_url}\n\n"
+                    f"If you did not request this, please ignore this email."
+                ),
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                recipient_list=[email],
+            )
+
+            return Response(
+                {"message": _("Password reset email sent successfully.")},
+                status=status.HTTP_200_OK
+            )
+
+        except Exception as e:
+            logger.error({"event": "ForgotPasswordView:post", "message": "Unexpected error occurred", "error": str(e)})
+            return Response(
+                {"message": _("An unexpected error occurred. Please try again later.")},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )

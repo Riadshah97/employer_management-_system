@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import SignUpView, LoginView, UserProfileView, EmployerView
+from .views import SignUpView, LoginView, UserProfileView, EmployerView, ForgotPasswordView
 
 urlpatterns = [
     # Authentication endpoints
@@ -10,4 +10,7 @@ urlpatterns = [
     # Employer endpoints
     path('employers/', EmployerView.as_view(), name='employer-list'),
     path('employers/<int:pk>/', EmployerView.as_view(), name='employer-detail'),
+
+    # Forgot password endpoint
+    path('forgot/password/', ForgotPasswordView.as_view(), name='forgot-password'),
 ]
